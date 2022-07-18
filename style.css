@@ -313,6 +313,39 @@ footer ul a:hover{
     margin-top: 4rem;
 }
 
+/* -------------- Search  -------------  */
+.search_bar{
+    margin-top: 7rem;
+}
+
+.search_bar-container{
+    position: relative;
+    width: 30rem;
+    background: var(--color-gray-900);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 0.6rem 1rem;
+    border-radius: var(--card-border-radius-2);
+    color: var(--color-gray-300);
+}
+
+.search_bar-container > div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.search_bar input{
+    background: transparent;
+    margin-left: 0.7rem;
+    padding: 0.5rem 0;
+    width: 100%;
+}
+
+
+
 /* -------------- Media Queries : Medium Devices -------------  */
 
 @media screen and (max-width:1024px)
