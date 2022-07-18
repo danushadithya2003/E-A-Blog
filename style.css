@@ -383,6 +383,25 @@ footer ul a:hover{
     line-height: 1.7rem;
 }
 
+/* -------------- Category Posts-------------  */
+
+.category_title{
+    height: 15rem;
+    margin-top: 4.5rem;
+    background: var(--color-gray-900);
+    display: grid;
+    place-items: center;
+}
+
+/* -------------- Static Pages-------------  */
+.staticpage_title{
+    height: 15rem;
+    margin-top: 4.5rem;
+    background: transparent;
+    display: grid;
+    place-items: center;
+}
+
 /* -------------- Media Queries : Medium Devices -------------  */
 
 @media screen and (max-width:1024px)
