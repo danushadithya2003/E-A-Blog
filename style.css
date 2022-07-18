@@ -395,7 +395,7 @@ footer ul a:hover{
 
 /* -------------- Static Pages-------------  */
 .staticpage_title{
-    height: 15rem;
+    height:70vh; /*Temporary; Will be updated later */
     margin-top: 4.5rem;
     background: transparent;
     display: grid;
