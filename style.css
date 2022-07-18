@@ -362,6 +362,27 @@ footer ul a:hover{
 }
 
 
+
+
+/* -------------- Single Post-------------  */
+.singlepost{
+    margin: 6rem 0 2rem;
+}
+
+.singlepost_container{
+    width: var(--form-width);
+    background: var(--color-gray-900);
+    padding: 1rem 2rem 3rem;
+}
+
+.singlepost_thumbnail{
+    margin: 1.5rem 0 1rem;
+}
+.singlepost_container p{
+    margin-top: 1rem;
+    line-height: 1.7rem;
+}
+
 /* -------------- Media Queries : Medium Devices -------------  */
 
 @media screen and (max-width:1024px)
@@ -484,8 +505,12 @@ footer ul a:hover{
         grid-template-columns: 1fr 1fr ;
         gap: 3rem;
     }
-}
 
+    /* --------------Blog Page ---------------- */
+    .search_bar-container{
+        width: 60%;
+    }
+}
 /* -------------- Media Queries : Small Devices -------------  */
 
 @media screen and (max-width:600px)
@@ -525,5 +550,15 @@ footer ul a:hover{
         gap: 3rem;
     }
 
+    /* --------------Blog Page ---------------- */
+    .search_bar-container{
+        width: var(--container-width-md);
+    }
+    /* -------Single Post --------- */
+    .singlepost_container{
 
-}
+        background-color: transparent;
+        padding: 0;
+    }
+
+    }
