@@ -637,7 +637,7 @@ input,textarea,select{
 
     /* --------------Blog Page ---------------- */
     .search_bar-container{
-        width: var(--container-width-md);
+        width: var(--container-width-lg);
     }
     /* -------Single Post --------- */
     .singlepost_container{
